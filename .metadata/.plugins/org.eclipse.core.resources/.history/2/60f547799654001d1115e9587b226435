@@ -1,0 +1,39 @@
+package hello;
+
+import java.util.Scanner;
+/**
+* @author Diego
+*/
+
+public class hello {
+	
+		public static void main(String args[]) {
+		
+			int number1, number2, number3, soma;
+		
+			Scanner entrada = new Scanner(System.in);
+			
+			for(int i = 0; i < 1; i++) {
+				System.out.println("Digite O primeiro numero");
+				number1 = entrada.nextInt();
+				System.out.println("Digite O segundo numero");
+				number2 = entrada.nextInt();
+				System.out.println("Digite O terceiro numero");
+				number3 = entrada.nextInt();
+				
+				soma = number2 + number3;
+				System.out.println("A soma dos dois ultimos digitos é: " + soma);
+				System.out.println("Digite O primeiro numero");
+				if (number1 < soma) {
+				
+					System.out.println("Valor primeiro numero :" + number1 +" é menor que a soma dos ultimos 2 digitos: " + soma);
+					
+				}else {
+					System.out.println("O valor do primeriro numero: " + number1 + " é maior que a soma dos ultimos 2 digitos: " + soma);
+				};
+				
+			};
+			entrada.close();
+	
+		};
+};

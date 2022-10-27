@@ -1,0 +1,23 @@
+package hello;
+
+/**
+* @author Diego
+*/
+
+public class hello {
+	
+		public static void main(String args[]) {
+		System.out.println("Hello World");
+		
+		int valor = 1;
+		
+		if(valor == 0) {
+			System.out.println("O valor e zero");
+		}else {
+			System.out.println("valor nao é zero");
+		}
+		
+		
+		}
+	
+} 

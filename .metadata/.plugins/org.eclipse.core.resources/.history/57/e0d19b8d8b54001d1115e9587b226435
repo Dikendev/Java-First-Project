@@ -1,0 +1,26 @@
+package hello;
+
+/**
+* @author Diego
+*/
+
+public class hello {
+	
+		public static void main(String args[]) {
+		System.out.println("Hello World");
+		
+			int valor = 2;
+			
+			if(valor == 0) {
+				System.out.println("O valor e zero");
+			}else if(valor == 1) { 
+				System.out.println("o valor é um");
+				
+			}else {
+				System.out.println("valor é dois");
+			}
+			
+		
+		}
+	
+} 

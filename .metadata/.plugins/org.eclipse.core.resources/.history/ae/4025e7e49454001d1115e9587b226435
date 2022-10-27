@@ -1,0 +1,27 @@
+package hello;
+
+import java.util.Scanner;
+/**
+* @author Diego
+*/
+
+public class hello {
+	
+		public static void main(String args[]) {
+		
+			int number1, number2, number3;
+		
+			Scanner entrada = new Scanner(System.in);
+			
+			for(int i = 0; i < 10; i++) {
+				System.out.println("Digite O primeiro numero");
+				number1 = entrada.nextInt();
+				System.out.println("Digite O primeiro numero");
+				number2 = entrada.nextInt();
+				System.out.println("Digite O primeiro numero");
+				
+			}
+		
+		}
+	
+};
